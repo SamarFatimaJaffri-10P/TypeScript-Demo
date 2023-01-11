@@ -92,7 +92,7 @@ var u2 = {
     data: ['foo', 'bar', 'baz'],
     meta: 'I am demo meta data'
 };
-// const result = addId<UserInterface>(u1);
+var result = addId(u1);
 // // ramda
 // const searchStr = 'foo';
 // const hasSearchedString = any<string>((el: string) => el.contains(searchStr), [

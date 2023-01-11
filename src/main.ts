@@ -139,7 +139,7 @@ const u2: UserInterface<string[], string> = {
     meta: 'I am demo meta data',
 };
 
-// const result = addId<UserInterface>(u1);
+const result = addId(u1);
 
 // // ramda
 // const searchStr = 'foo';
